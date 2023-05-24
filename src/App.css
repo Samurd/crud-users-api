@@ -1,0 +1,167 @@
+.container-nav {
+    width: 90%;
+    background-color: rgb(30, 30, 30);
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-nav button {
+    border: none;
+    padding: .5rem;
+    font-size: 1.2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container-form {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.738);
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-close {
+    border: none;
+    padding: .2rem .5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding: .5rem;
+    background-color: rgb(30, 30, 30);
+    border-radius: 15px;
+    position: relative;
+}
+
+.container-input {
+    margin: 10px 0;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container-input input {
+    height: 30px;
+    border: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: .5rem;
+    margin: 5px 0;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.container-btn button {
+    border: none;
+    padding: .4rem;
+    border-radius: 10px;
+    width: 190px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.container-cards-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: rgb(30, 30, 30);
+    border-radius: 0 0 15px 15px;
+    padding: 1rem;
+    margin:  0 auto;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.container-cards-main h1 {
+    padding: .5rem;
+}
+
+.card-user {
+    background-color: rgb(53, 53, 53);
+    width: 280px;
+    padding: .6rem;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+
+.card-user .container-name {
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(142, 142, 142);
+}
+
+.container-name h2 {
+    font-size: 1.3rem;
+}
+
+.card-user .container-info h4 {
+    font-size: 1rem;
+    color: rgb(168, 166, 166);
+    padding: 5px 0;
+}
+
+.card-user .container-info h3 {
+    font-size: 1.1rem;
+}
+
+.container-btns {
+    margin: 10px 0;
+}
+
+.container-btns button {
+    border: none;
+    padding: .4rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: rgb(229, 35, 35);
+    color: white;
+}
+
+
+@media screen and (min-width: 720px) {
+    form {
+        width: 40%;
+    }
+}
